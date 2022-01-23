@@ -1,0 +1,56 @@
+[2022-01-21 02:26:16] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 03:43:42] [ERROR]: Protocol -> exchange_emp error: 40 
+[2022-01-21 03:43:42] [WARNING]: 恢复会话失败: exchange_emp failed , 尝试使用正常流程登录. 
+[2022-01-21 03:44:17] [FATAL]: 账号被冻结 
+[2022-01-21 03:47:05] [ERROR]: Protocol -> sync channel error: Packet failed to sendPacket: connection closed 
+[2022-01-21 03:47:05] [FATAL]: 遇到错误: Packet failed to sendPacket: connection closed 
+[2022-01-21 03:47:40] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2022-01-21 03:47:41] [WARNING]: 检查更新失败！ 
+[2022-01-21 03:48:01] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2022-01-21 03:48:05] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2022-01-21 03:48:09] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2022-01-21 03:48:14] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2022-01-21 03:48:18] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2022-01-21 03:48:21] [WARNING]: 处理事件 map[font:0 message:你好 message_id:-1654574316 message_type:private post_type:message raw_message:你好 self_id:3102734141 sender:map[age:0 nickname:莫失 sex:unknown user_id:2014559177] sub_type:friend target_id:3102734141 time:1642708079 user_id:2014559177] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 238 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd4f940, 0x13ef050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc0000d3180, 0x7301b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000405f40)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2022-01-21 04:41:38] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 04:42:21] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 04:59:23] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 04:59:45] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 05:01:01] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 05:02:12] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 05:32:59] [WARNING]: 转换CQ码 [CQ:image,file='./images/morning.jpg'] 时出现错误: invalid image 将原样发送. 
+[2022-01-21 06:04:10] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2022-01-21 08:30:14] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 1 次重试 
+[2022-01-21 08:30:17] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 2 次重试 
+[2022-01-21 08:30:21] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 3 次重试 
+[2022-01-21 08:30:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 4 次重试 
+[2022-01-21 08:30:27] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connectex: No connection could be made because the target machine actively refused it. 将进行第 5 次重试 
+[2022-01-21 08:30:32] [WARNING]: 处理事件 map[font:0 message:https://github.com/Box-s-ville/luciabot/tree/v1 message_id:2759839 message_type:private post_type:message raw_message:https://github.com/Box-s-ville/luciabot/tree/v1 self_id:3102734141 sender:map[age:0 nickname:莫失 sex:unknown user_id:2014559177] sub_type:friend target_id:3102734141 time:1642725012 user_id:2014559177] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 2030 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xd4f940, 0x13ef050})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc0000d3180, 0x7301b7)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000405f40)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
